@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+}
+section{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.intro{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    margin-left: 3%;
+    padding: 2%;
+    float: left;  
+}
+.half-width h2{
+    font-weight: 500;
+    font-size: 30px;
+}
+.half-width h1{
+    color: #FF4E95;
+    font-size: 40px;
+}
+.half-width p{
+    color: rgb(77, 50, 61);
+    font-size: 20px;
+    line-height: 1.5;
+}
+.half-width a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #FF4E95, rgb(77, 50, 61) );
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: whitesmoke;
+}
+.half-width a:hover{
+    color: rgb(202, 233, 144);
+}
+div img{
+    width: 80%;
+    float: left;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.biography h1{
+    color: black;
+    font-weight: 600;
+    margin: 10% 0;
+}
+.latest-work{
+    clear: both;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.latest-work h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.work-image{
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+}
+.work-image img{
+    width: 25%;
+    margin: 0 3%;
+    float: left;
+    opacity: .8;
+    cursor: pointer;
+}
+.work-image img:hover{
+    opacity: 1;
+}
+.client{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100%;
+}
+.client h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.client h4{
+    color: rgb(59, 36, 36);
+    font-size: 22px;
+    margin: 0 auto;
+    
+}
+.client h6{
+    color: #ED596D;
+    font-size: 16px;
+}
+.client p{
+    margin: 20px 31%;
+}
+.contact{
+    background-image: linear-gradient(90deg, #FF4992, #FF1872);
+    padding: 2% 0%;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+.contact:hover{
+    width: 45%;
+    transition: width 1s;
+    background-image: linear-gradient(90deg, rgb(230, 134, 172), rgb(230, 88, 142));
+}
+.contact p{
+    font-size: 14px;
+    color: rgb(220, 241, 241);
+}
+.contact a{
+    font-size: 30px;
+    color: cornsilk;
+    text-decoration: none;
+}
+footer p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10%;
+}
+footer a{
+    text-decoration: none;
